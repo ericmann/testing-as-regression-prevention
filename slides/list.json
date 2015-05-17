@@ -1,1 +1,19 @@
-["index.md"]
+[
+    "index.md",
+    "todays-agenda.html",
+    "the-basics.html",
+    "logic-diagrams.html",
+    "basic-example.html",
+    "workshop-setup.html",
+    "break-1.html",
+    "write-failing-tests.html",
+    "workshop-fdd.html",
+    "failing-test-1.html",
+    "failing-test-2.html",
+    "from-fdd-to-tdd.html",
+    "break-2.html",
+    "mocking-and-decoupling.html",
+    "workshop-mocking.html",
+    "mocks-in-practice.html",
+    "open-discussion.html"
+]
