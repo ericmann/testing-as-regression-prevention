@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Testing as Regression Prevention",
+    "packageVersion": "1.0.0",
+    "revealTheme": "default",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ericmann",
+    "githubRepository": "testing-as-regression-prevention"
+  }
+}
