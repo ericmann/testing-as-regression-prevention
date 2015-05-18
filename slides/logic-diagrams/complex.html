@@ -1,0 +1,8 @@
+<h2><code>is_post_for_cpt()</code></h2>
+
+<pre><code data-trim contenteditable class="php">function is_post_for_cpt() {
+    $post = get_post();
+
+    return is_admin() && ! empty( $post ) && $post->post_type === 'cpt';
+}
+</code></pre>
