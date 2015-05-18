@@ -3,7 +3,10 @@
     "todays-agenda.html",
     "the-basics.html",
     "logic-diagrams.html",
-    "basic-example.html",
+    [
+        "example/basic.html",
+        "example/tests.html"
+    ],
     [
         "setup/workshop.html",
         "setup/clone.html"
