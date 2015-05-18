@@ -26,6 +26,7 @@
     "from-fdd-to-tdd.html",
     "break.html",
     "mocking-and-decoupling.html",
+    "mocking-example.html",
     [
         "mocking/workshop.html",
         "mocking/details.html",
