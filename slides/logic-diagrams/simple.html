@@ -1,0 +1,8 @@
+<h2><code>enqueue_if_post_for_cpt()</code></h2>
+
+<pre><code data-trim contenteditable class="php">function enqueue_if_post_for_cpt() {
+    if ( $this->is_post_for_cpt() ) {
+        $this->enqueue_support_scripts();
+    }
+}
+</code></pre>

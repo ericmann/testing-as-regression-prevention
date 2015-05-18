@@ -2,7 +2,14 @@
     "index.md",
     "todays-agenda.html",
     "the-basics.html",
-    "logic-diagrams.html",
+    [
+        "logic-diagrams/overview.html",
+        "logic-diagrams/full-code.html",
+        "logic-diagrams/simple.html",
+        "logic-diagrams/simple-diagram.html",
+        "logic-diagrams/complex.html",
+        "logic-diagrams/complex-diagram.html"
+    ],
     [
         "example/basic.html",
         "example/tests.html"
