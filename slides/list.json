@@ -19,13 +19,17 @@
         "fdd/get_auth.html",
         "fdd/validate_auth.html"
     ],
-    "failing-test-1.html",
-    "failing-test-2.html",
+    [
+        "fdd/security.html",
+        "fdd/signature.html"
+    ],
     "from-fdd-to-tdd.html",
     "break.html",
     "mocking-and-decoupling.html",
     [
-        "mocking/workshop.html"
+        "mocking/workshop.html",
+        "mocking/details.html",
+        "mocking/signature.html"
     ],
     "open-discussion.html"
 ]

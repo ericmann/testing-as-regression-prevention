@@ -1,0 +1,13 @@
+<h2>Update the Method Docs</h2>
+
+<pre><code data-trim contenteditable class="php">&lt;php
+/**
+ * Flag that this request supports CORS and force CORS headers to be
+ * sent to the browser.
+ *
+ * @param string $mimetype The mimetype being sent in the response
+ */
+public function do_cors( $mimetype ) {}
+</code></pre>
+
+<p class="fragment">Now we refactor the <code>do_cors()</code> method such that it passes the new tests.</p>
