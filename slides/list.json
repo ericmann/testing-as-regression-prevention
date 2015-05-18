@@ -14,7 +14,10 @@
     "break.html",
     "write-failing-tests.html",
     [
-        "fdd/workshop.html"
+        "fdd/workshop.html",
+        "fdd/details.html",
+        "fdd/get_auth.html",
+        "fdd/validate_auth.html"
     ],
     "failing-test-1.html",
     "failing-test-2.html",
