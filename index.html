@@ -20,7 +20,7 @@
 
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+        <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -136,23 +136,39 @@
 
 
                             
+                                
+    <section data-html="slides/fdd/details.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/fdd/get_auth.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/fdd/validate_auth.html"></section>
+
+
+                            
                         </section>
                     
                 
                     
-                        
-    <section data-html="slides/failing-test-1.html"></section>
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/fdd/security.html"></section>
 
 
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/failing-test-2.html"></section>
+                            
+                                
+    <section data-html="slides/fdd/signature.html"></section>
 
 
-                    
+                            
+                        </section>
                     
                 
                     
@@ -185,6 +201,16 @@
                             
                                 
     <section data-html="slides/mocking/workshop.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/mocking/details.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/mocking/signature.html"></section>
 
 
                             
@@ -222,7 +248,7 @@
                     { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return true; },  callback: function() { hljs.initHighlightingOnLoad(); } },
                     { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
                     // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }

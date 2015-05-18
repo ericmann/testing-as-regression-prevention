@@ -1,0 +1,3 @@
+<h2>Patch a Security Hole</h2>
+
+<p>A grayhat hacker has alerted us to a CORS error in our API. It seems all API requests are being returned with an <code>application/json</code> mime type, even though some are returning XML. Further diagnostics show that whenever <code>->do_cors()</code> is called after we set the mime type, it’s overwriting things. We need to fix this so XML requests don’t err.</p>
