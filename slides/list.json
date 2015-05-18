@@ -4,16 +4,22 @@
     "the-basics.html",
     "logic-diagrams.html",
     "basic-example.html",
-    "workshop-setup.html",
-    "break-1.html",
+    [
+        "setup/workshop.html",
+        "setup/clone.html"
+    ],
+    "break.html",
     "write-failing-tests.html",
-    "workshop-fdd.html",
+    [
+        "fdd/workshop.html"
+    ],
     "failing-test-1.html",
     "failing-test-2.html",
     "from-fdd-to-tdd.html",
-    "break-2.html",
+    "break.html",
     "mocking-and-decoupling.html",
-    "workshop-mocking.html",
-    "mocks-in-practice.html",
+    [
+        "mocking/workshop.html"
+    ],
     "open-discussion.html"
 ]
